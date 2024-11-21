@@ -1,5 +1,5 @@
 <?php
-function isValidEmail($email) {
+function ValidEmail($email) {
     
     $pattern = '/^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/';
 
@@ -16,25 +16,25 @@ $email2 = "ab@yahoo.com";
 $email3 = "abc@hotmail.com";
 $email4 = "@example.com";
 
-if (isValidEmail($email1)) {
+if (ValidEmail($email1)) {
     echo "$email1 là email hợp lệ.\n";
 } else {
     echo "$email1 là email không hợp lệ.\n";
 }
 echo "<br>";
-if (isValidEmail($email2)) {
+if (ValidEmail($email2)) {
     echo "$email2 là email hợp lệ.\n";
 } else {
     echo "$email2 là email không hợp lệ.\n";
 }
 echo "<br>";
-if (isValidEmail($email3)) {
+if (ValidEmail($email3)) {
     echo "$email3 là email hợp lệ.\n";
 } else {
     echo "$email3 là email không hợp lệ.\n";
 }
 echo "<br>";
-if (isValidEmail($email4)) {
+if (ValidEmail($email4)) {
     echo "$email4 là email hợp lệ.\n";
 } else {
     echo "$email4 là email không hợp lệ.\n";

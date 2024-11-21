@@ -1,0 +1,3 @@
+-  Khi một ngoại lệ được ném ra, cần phải được bắt để xử lý
+- Kể cả không xảy ra ngoại lệ, khối finally vẫn sẽ được thực thi khi nằm trong try - catch
+- Có thể xử lí nhiều ngoại lệ cùng một lúc
